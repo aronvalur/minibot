@@ -1,0 +1,14 @@
+{
+  "name": "minimaliskt-bot",
+  "version": "1.0.0",
+  "description": "AI chatbot server for minimaliskt.is",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "@anthropic-ai/sdk": "^0.27.0"
+  }
+}
